@@ -96,6 +96,7 @@ export const TopicTitle = styled.h2`
         font-size:18px!important;
         display:flex;
         align-items:center;
+        margin-left:0px;
       }
            
 
@@ -121,6 +122,7 @@ export const TextTopic = styled.p`
         font-size:12px!important;
         text-wrap: wrap;
         text-align:center;
+        
         
     }
     .textDiv{
