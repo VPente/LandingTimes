@@ -120,6 +120,7 @@ export const TextTopic = styled.p`
     @media(max-width: 900px){
         font-size:12px!important;
         text-wrap: wrap;
+        text-align:center;
         
     }
     .textDiv{
