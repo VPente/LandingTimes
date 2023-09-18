@@ -120,8 +120,11 @@ export const TextTopic = styled.p`
     }
     @media(max-width: 900px){
         font-size:12px!important;
-        text-wrap: wrap;
-        text-align:center;
+        text-wrap: wrap!important;
+        text-align:justify;
+        margin-right:1rem;
+
+        
         
         
     }

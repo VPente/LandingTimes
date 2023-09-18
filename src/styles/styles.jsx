@@ -67,8 +67,8 @@ line-height: normal;
 
         }
 @media(max-width: 900px){
-    font-size:1rem!important;
-    text-wrap: nowrap;
+    font-size:2rem!important;
+    text-wrap: wrap;
     margin-top: 1rem;
     margin-bottom: 2rem; 
     
@@ -91,7 +91,7 @@ export const TitleTwo = styled.h1`
     }
 
     @media(max-width: 900px){
-        font-size: 16px!important;
+        font-size: 20px!important;
         text-align: justify;
         margin-bottom:2rem;
         
@@ -125,7 +125,7 @@ export const TitleTwoBack = styled.span`
     }
 
     @media(max-width: 900px){
-        font-size: 16px!important;
+        font-size: 20px!important;
         text-align: justify;
 
         }
@@ -216,8 +216,8 @@ export const FirstContainer = styled.section`
 
         }
     @media(max-width: 900px){
-    background-size:  100% 17rem;
-    background-position:top;   /*55.65%*/
+    background-size:  100% 16rem;
+    background-position:top;  
 
         margin-right:0px;
 
@@ -345,9 +345,8 @@ export const Umbrella = styled.span`
     @media(max-width: 900px){
         width:50px;
         height:50px;
-        
         top:10px;
-        
+        right:7px;
     }
     
 
