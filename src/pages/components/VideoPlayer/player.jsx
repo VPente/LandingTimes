@@ -12,11 +12,12 @@ const VideoWrapper = styled.section`
   height:100%;
   @media(max-width: 1600px){
     margin-right:0rem;
-    margin-top:1.2rem;
+    margin-top:0.4rem;
 
     }
       @media(max-width: 1024px){
-    margin-top:1.8rem;
+        margin-top:0.4rem;
+
 
       }
       @media(max-width: 900px){
@@ -40,16 +41,16 @@ const VideoWrapper = styled.section`
       width:90vh!important;
         }
         @media(max-width: 1600px){
-      width:79vh!important;
+      width:90vh!important;
         }
       @media(max-width: 1440px){
-      width:100vh!important;
+      width:90vh!important;
         }
       @media(max-width: 1366px){
-      width:80vh!important;
+      width:100vh!important;
         }
       @media(max-width: 1024px){
-      width:50vh!important;
+      width:80vh!important;
         }
       @media(max-width: 900px){
       width:40vh!important;

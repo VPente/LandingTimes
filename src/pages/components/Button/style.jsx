@@ -62,7 +62,10 @@ export const ButtonTwo = styled.button`
    width: 30rem;
     padding: 30px;
     font-weight: 700;
-    background-color: #E8B63A;
+    /* background-color: #E8B63A; */
+    background-color: #652f87;
+
+    
 
     color: #ffffff;
     border-radius: 5px;

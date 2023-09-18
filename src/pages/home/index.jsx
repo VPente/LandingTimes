@@ -42,9 +42,9 @@ export function Home() {
           <AboutSection>
               <AboutUs>
                 <TitleTwo>Promoção de <TitleTwoBack>ambientes</TitleTwoBack>, para que a <TitleTwoBack>inovação</TitleTwoBack> e os resultados possam fluir. </TitleTwo> 
-                <SubTitle>Uma mentoria focada em diagnósticos e ações</SubTitle>  
+                <SubTitle>Uma mentoria focada em diagnósticos e ações!</SubTitle>  
                 <BtnWrapper2>
-                  <Button url="https://firmament.com.br/" Children = 'Conheça nossas soluções' component={ButtonTwo} ></Button>
+                  <Button url="https://firmament.com.br/" Children = 'Clique para conhecer' component={ButtonTwo} ></Button>
                 </BtnWrapper2>  
               </AboutUs>
               <ImgWrapper>
@@ -54,7 +54,7 @@ export function Home() {
         </SecondContainer>
         
         <TopicHeader>
-          <TitleThree>Como contribuímos com a cultura de inovação de nossos clientes.</TitleThree>
+          <TitleThree>Como contribuímos com a <TitleTwoBack>cultura de inovação</TitleTwoBack> de nossos clientes.</TitleThree>
         </TopicHeader>
         <Topic/>
         <BtnWrapper3>

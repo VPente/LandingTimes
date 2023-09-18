@@ -5,7 +5,7 @@ export const Header = styled.header`
     align-items: start;
     display: flex;
     box-shadow:1px;
-    border-bottom: 1px solid #652F87;
+    /* border-bottom: 1px solid #652F87; */
     
     .firmamentImg{
     margin-left:0.3rem;
@@ -76,24 +76,25 @@ line-height: normal;
 `   
 export const TitleTwo = styled.h1`
     color: ${({theme}) => theme.colors.primary};
+    font-weight: 400;
 
-    font-size: 45px;
+    font-size: 70px;
     font-style: normal;
     line-height: normal;
     margin-top:2rem;
     width:90%;
     
     @media(max-width: 1600px){
-        font-size: 30px!important;
+        font-size: 50px!important;
     }
     @media(max-width: 1024px){
-        font-size: 25px!important;
+        font-size: 40px!important;
     }
 
     @media(max-width: 900px){
-        font-size: 20px!important;
+        font-size: 25px!important;
         text-align: justify;
-        margin-bottom:2rem;
+        margin-bottom:10px;
         
 
       }
@@ -103,9 +104,9 @@ export const TitleTwo = styled.h1`
 
 export const TitleTwoBack = styled.span`
     color: ${({theme}) => theme.colors.primary};
-    font-family: 'Patrick Hand SC', cursive;
-    text-transform: uppercase;
-    font-size: 40px;
+    /* font-family: 'Patrick Hand SC', cursive; */
+    /* text-transform: uppercase; */
+    font-size: 70px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -118,14 +119,14 @@ export const TitleTwoBack = styled.span`
     /* background: rgb(232, 182, 58, 0.4);
     background-size:10px 10px; */
     @media(max-width: 1600px){
-        font-size: 30px!important;
+        font-size: 50px!important;
     }
     @media(max-width: 1024px){
-        font-size: 25px!important;
+        font-size: 40px!important;
     }
 
     @media(max-width: 900px){
-        font-size: 20px!important;
+        font-size: 25px!important;
         text-align: justify;
 
         }
@@ -133,21 +134,24 @@ export const TitleTwoBack = styled.span`
 
 export const TitleThree = styled.h1`
     color: ${({theme}) => theme.colors.primary};
-    font-size: 54px;
+    font-size: 70px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
     margin-top:2rem;
+    width:90%;
+
+    
     
     @media(max-width: 1600px){
-        font-size: 33px!important;
+        font-size: 50px!important;
     }
 
     @media(max-width: 1024px){
-        font-size: 25px!important;
+        font-size: 40px!important;
     }
     @media(max-width: 900px){
-        font-size: 18px!important;
+        font-size: 30px!important;
         
 
     }
@@ -157,7 +161,7 @@ export const TitleThree = styled.h1`
 
 export const SubTitle = styled.h2`
     color: ${({theme}) => theme.colors.primary};
-    font-family: 'Patrick Hand SC', cursive;
+    /* font-family: 'Patrick Hand SC', cursive; */
 
     font-size:40px;
     font-style: normal;
@@ -165,22 +169,23 @@ export const SubTitle = styled.h2`
     line-height: normal;
     opacity: 1;
     margin-top:3rem;
+    margin-bottom:3rem;
+
     @media(max-width: 1600px){
-        margin-top:1rem!important;
-    font-size:25px;
+        margin-top:2rem!important;
+    font-size:30px;
     }
     @media(max-width: 900px){
-        font-size:20px;
-        margin-top:3rem!important;
-
-
+        font-size:15px;
+        margin-top:10px;
+        text-align:center;
         }
 `
 
 
 export const FirstWrapper = styled.div`
     display:flex;
-    margin-left:8rem;
+    margin-left:4.5rem;
     margin-top: 2.5rem;
     @media(max-width: 900px){
          margin: 20px 0 0px;
@@ -201,9 +206,9 @@ export const FirstContainer = styled.section`
     
     background-image:url(${BGGolden});
     
-    background-position: left;
+    background-position: 5% 50%;
     background-repeat: no-repeat;
-    background-size: 52% 100%;   /*55.65%*/
+    background-size: 48% 100%;   /*55.65%*/
 
     @media(min-width: 2559px){
         background-size: 61% 100%;   
@@ -212,7 +217,7 @@ export const FirstContainer = styled.section`
             background-size: 64% 100%;    
         }
     @media(max-width: 1440px){
-            background-size: 57% 100%;  
+            background-size: 53% 100%;  
 
         }
     @media(max-width: 900px){
@@ -234,6 +239,7 @@ export const FirstContainer = styled.section`
 `
 export const SecondContainer = styled.section`
     padding:0 10rem 2rem 10rem;
+    align-items:center;
     @media(max-width: 1600px){
     padding:0 0rem 0rem 0rem;
         
@@ -247,13 +253,14 @@ export const SecondContainer = styled.section`
         
 }
     .mainImg{
-        width:750px;
+        width:900px;
+        
         @media(max-width: 1600px){
-            width: 450px!important;
-            margin-right:4rem;
+            width: 700px!important;
+            margin-left:4rem;
     }
         @media(max-width: 1024px){
-            width: 350px!important;
+            width: 500px!important;
         }
         @media(max-width: 900px){
             width:310px!important;
@@ -292,12 +299,13 @@ export const FourthContainer = styled.section`
 export const TopicHeader = styled.section`
     display:flex;
     justify-content:center;
-    margin-left:8%;
-    margin-right:10%;
+    margin: 0 auto;
     margin-top:2rem;
     align-items:center;
+    margin-left:5rem;
 
     @media(max-width: 900px){
+    margin: 0 auto;
         
         
     
@@ -355,7 +363,7 @@ export const Umbrella = styled.span`
 export const BtnWrapper2 = styled.div`
 display:flex;
 justify-content:flex-start;
-position:absolute;
+/* position:absolute; */
 
 
 bottom:1px;
@@ -363,8 +371,7 @@ bottom:1px;
     justify-content:flex-end;
     margin-top:1rem;
     position:static;
-    margin-top: -4.3rem; 
-    margin-right:2.5rem;
+    
     }
     @media(max-width: 340px){
     margin-top: -6rem; 
@@ -430,8 +437,11 @@ export const ImgWrapper = styled.div`
 `
 export const AboutSection = styled.div`
     display:flex;
-    justify-content:space-arround;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     margin-top:7rem;
+
     @media(max-width: 1600px){
         margin-top:4rem;
         }
@@ -440,7 +450,7 @@ export const AboutSection = styled.div`
     display:flex;
     margin-top:3rem;
     justify-content:center;
-    flex-direction:column-reverse;
+    flex-direction:column;
     margin:0 auto;
     align-items:center;
       }
@@ -448,13 +458,20 @@ export const AboutSection = styled.div`
     
 `
 export const AboutUs = styled.div`
-align-items:start;
+display:flex;
+flex-direction:column;
+align-items:center;
 position: relative;
 margin-top:1rem;
-
+align-items:center;
+justify-content:center;
+margin-bottom:3rem;
+margin-left:5rem;
 @media(max-width: 1600px){
-    padding-bottom:10rem;
-    margin-left:8rem;
+    padding-bottom:5rem;
+    margin-left:4rem;
+    margin-bottom:1rem;
+
 
         }
 @media(max-width: 900px){
