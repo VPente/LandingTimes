@@ -123,6 +123,7 @@ export const TextTopic = styled.p`
         text-wrap: wrap!important;
         text-align:justify;
         margin-right:1rem;
+        max-width:100%;
 
         
         

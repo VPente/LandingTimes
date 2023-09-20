@@ -15,9 +15,9 @@ export const Header = styled.header`
 export const Main = styled.section`
     display: block;
     flex-direction: column;
-    max-width: 2800px;
+    max-width: 2600px;
     min-width:300px;
-    @media (min-width:2800px) {
+    @media (min-width:1940px) {
     margin: 0 auto;
 
     
@@ -210,8 +210,8 @@ export const FirstContainer = styled.section`
     background-repeat: no-repeat;
     background-size: 48% 100%;   /*55.65%*/
 
-    @media(min-width: 2550px){
-        background-size: 55% 100%;   
+    @media(min-width: 1930px){
+        background-size: 50% 100%;   
     }
     @media(max-width: 1600px){
             background-size: 64% 100%;    
