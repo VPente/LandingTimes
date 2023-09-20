@@ -210,8 +210,8 @@ export const FirstContainer = styled.section`
     background-repeat: no-repeat;
     background-size: 48% 100%;   /*55.65%*/
 
-    @media(min-width: 2559px){
-        background-size: 61% 100%;   
+    @media(min-width: 2550px){
+        background-size: 55% 100%;   
     }
     @media(max-width: 1600px){
             background-size: 64% 100%;    
